@@ -40,6 +40,34 @@
   <SettingsWindow />
   <LiveStatsWindow />
 
+ <footer class="px-5 pb-4 pt-16">
+    <div class="mx-auto max-w-[40rem]">
+      <div aria-hidden="true" class="h-[1px] bg-slate-700" />
+      <div class="flex items-center justify-between p-2">
+        <p class="text-sm text-slate-500">
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noreferrer"
+            class=" text-cyan-600 transition hover:text-cyan-500"
+          >
+            Mannaushack
+          </a>
+          2024
+        </p>
+        <a
+          href="https://github.com/"
+          target="_blank"
+          rel="noreferrer"
+          class="flex items-center gap-1 p-1 text-sm text-slate-500 transition hover:text-cyan-500"
+        >
+          <GitHubLogo class="size-4" weight="bold" />
+          <span>Source Code</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
 <style>
   :global(body) {
     @apply bg-gray-800;
